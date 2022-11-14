@@ -3,6 +3,7 @@ kind: ClusterPolicy
 metadata: 
   name: add-safe-to-evict
   annotations:
+    policies.nirmata.io/add-safe-to-evict: add-safe-to-evict
     policies.kyverno.io/title: "Add safe-to-evict label"
     policies.kyverno.io/category: "Best Practices"
     pod-policies.kyverno.io/autogen-controllers: none
