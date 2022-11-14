@@ -3,7 +3,7 @@ kind: ClusterPolicy
 metadata:
   name: restrict-sysctls
   annotations:
-    policies.nirmata.io/restrict-sysctls: restrict-sysctls
+    policies.nirmata.io/uuid: restrict-sysctls
     policies.kyverno.io/category: Pod Security Standards (Default)
     policies.kyverno.io/description: >-
       Sysctls can disable security mechanisms or affect all containers on a
